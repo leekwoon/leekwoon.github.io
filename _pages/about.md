@@ -13,11 +13,7 @@ news: true
 social: true
 ---
 
-<!-- Hello! I am a M.S./Ph.D. student in Computer Science and Engineering at Seoul National University, and working in Vision & Learning Lab -->
-
-<!-- under the supervision of Prof.Jaejun Yoo -->
-
-Hi! I am a M.S./Ph.D. student in Computer Science at Ulsan National Institute of Science and Technology (UNIST) under the supervision of Prof. <a style="color:DodgerBlue" href="http://sailab.kaist.ac.kr/members/jaesik/"><u>Jaesik Choi</u></a>. My research interests lies in deep reinforcement learning, particularly unsupervised RL and curriculum RL. I am also involved in a wide range of other projects, such as autonomous navigation in crowded environment, devising strategies for curling games and change point detection.
+Hi! I am a M.S./Ph.D. student in Computer Science at Ulsan National Institute of Science and Technology (UNIST) under the supervision of Prof. <a style="color:DodgerBlue" href="http://sailab.kaist.ac.kr/members/jaesik/"><u>Jaesik Choi</u></a>. My research interests lie in deep reinforcement learning, particularly unsupervised RL and curriculum RL. I am also involved in a wide range of other projects, such as autonomous navigation in crowded environment, devising strategies for curling games and change point detection.
 
 <div >
 
