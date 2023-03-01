@@ -1,0 +1,50 @@
+# @Author: Your name
+# @Date:   2022-10-08 15:46:26
+# @Last Modified by:   Your name
+# @Last Modified time: 2023-02-22 13:27:45
+pre_prints:
+  - title: "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills"
+    authors:
+      - Seongun Kim*
+      - Kyowoon Lee*
+      - Jaesik Choi
+    venue: Preprint 2023
+    page_url: # /projects/embodied_pose/
+    # paper_url: https://github.com/leekwoon/hrl-nav
+    # github_url: https://github.com/leekwoon/hrl-nav
+    image: projects/vcrl/fig.png
+
+publications:
+  - title: "Confirmatory Bayesian Online Change Point Detection in the Covariance Structure of Gaussian Processes"
+    authors:
+      - Kyowoon Lee*
+      - Seongun Kim*
+      - Jaesik Choi
+    venue: ICRA 2023
+    # page_url: /projects/embodied_pose/
+    paper_url: https://github.com/leekwoon/hrl-nav
+    github_url: https://github.com/leekwoon/hrl-nav
+    image: projects/hrl-nav/example.gif
+  - title: "Confirmatory Bayesian Online Change Point Detection in the Covariance Structure of Gaussian Processes"
+    authors:
+      - Jiyeon Han*
+      - Kyowoon Lee*
+      - Anh Tong
+      - Jaesik Choi
+    venue: IJCAI 2019
+    # page_url: /projects/embodied_pose/
+    paper_url: https://arxiv.org/pdf/1905.13168.pdf
+    image: projects/CBOCPD/run_length.png
+  - title: "Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling"
+    authors:
+      - Kyowoon Lee*
+      - Sol-A Kim*
+      - Seong-Whan Lee
+      - Jaesik Choi
+    venue: ICML 2018
+    # page_url: /projects/embodied_pose/
+    paper_url: http://proceedings.mlr.press/v80/lee18b/lee18b.pdf
+    # video_url: https://www.youtube.com/watch?v=8Ae0xzqAtm8
+    github_url: https://github.com/leekwoon/KR-DL-UCT
+    image: projects/KR-DL-UCT/curling.gif
+ 

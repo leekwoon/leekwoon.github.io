@@ -1,70 +1,49 @@
 ---
 layout: default
 ---
+<!-- <a style="font-size:30px">[Page still under construction]</a> -->
+<div class="post">
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+  <header class="post-header">
+    {% assign name = site.title | split: ' ' %}
+    {% assign firstname = name | first %}
+    {% if name.size > 2 %}
+       {% assign middlenames =  name | slice:1, name.size-1 | join:" " %}
+    {% else %}
+       {% assign middlenames = '' %}
+    {% endif %}
+    {% assign lastname = name | last %}
+    <a style="font-size:30px" class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+     <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
+    </a>
+  </header>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
-
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
+  <article>
+    <div class="row">
+      <div class="col" align="justify">
+        {{ content }}
+      </div>
+        {% if page.profile %}
+        <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
+          {% if page.profile.image %}
+            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+          {% endif %}
+          {% if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
             </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+          {% endif %}
+        </div>
+        {% endif %}
+    </div>
+    
+    {% include publications.html %}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+  </article>
 
-          <!-- News -->
-          {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html %}
-          {%- endif %}
-
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-              
-            </div>
-          {%- endif %}
-        </article>
-
+<!-- <div class="social">
+    {% include social.html %}
+    <div class="contact-note">{{ site.contact_note }}</div>
+</div> -->
+<!-- <hr> -->
 </div>

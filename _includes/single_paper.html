@@ -1,0 +1,37 @@
+<div class="paper-entry">
+    {% if paper.image %}
+    <a href="{{ paper.paper_url }}" target="_blank"><img src="{{ paper.image | prepend: '/assets/img/' | relative_url }}" /></a>
+    {% endif %}
+    <ul class="paper-info">
+        <li> <b style="font-size:20px"  >{{ paper.title }}</b></li>
+        <li>
+        {% assign num_authors = (paper.authors | size) | minus: 2 %}
+        {% for idx in (0..num_authors)%}
+        {%assign author = paper.authors[idx] %}
+        {% if author == "Kyowoon Lee" or author == "Kyowoon Lee*" %}
+            <u><i><b>{{ author }}</b></i></u>, 
+        {% else %}
+            {{ author }},
+        {% endif %}
+        {% endfor %}
+
+        {{ paper.authors[-1] }}
+        </li>
+        <li>{{ paper.venue }}</li>
+        <li><i>{{ paper.comments }}</i></li>
+        <li>
+        {%if paper.video_url%}
+            <a style="color:DodgerBlue" href="{{ paper.video_url }}">[Video]</a>
+        {% endif %}
+        {%if paper.paper_url%}
+            <a style="color:DodgerBlue" href="{{ paper.paper_url }}">[Paper]</a>
+        {% endif %}
+        {%if paper.page_url%}
+            <a style="color:DodgerBlue" href="{{ paper.page_url }}">[Project]</a>
+        {% endif %}
+        {%if paper.github_url%}
+            <a style="color:DodgerBlue" href="{{ paper.github_url }}">[Code]</a>
+        {% endif %}
+        </li>
+    </ul>
+</div>
