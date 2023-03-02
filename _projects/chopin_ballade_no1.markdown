@@ -4,7 +4,7 @@ title: "" # Chopin Ballade No.1 in G Minor, Op.23
 description: Chopin Ballade No.1 in G Minor, Op.23
 img: /assets/img/pianos/chopin_ballade_no1.png
 importance: 5
-type: concert
+type: piano
 ---
 
 <div class="embed-container">

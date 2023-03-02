@@ -15,7 +15,7 @@ pre_prints:
     image: projects/vcrl/fig.png
 
 publications:
-  - title: "Confirmatory Bayesian Online Change Point Detection in the Covariance Structure of Gaussian Processes"
+  - title: "Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning"
     authors:
       - Kyowoon Lee*
       - Seongun Kim*
@@ -39,8 +39,8 @@ publications:
     authors:
       - Kyowoon Lee*
       - Sol-A Kim*
-      - Seong-Whan Lee
       - Jaesik Choi
+      - Seong-Whan Lee
     venue: ICML 2018
     # page_url: /projects/embodied_pose/
     paper_url: http://proceedings.mlr.press/v80/lee18b/lee18b.pdf

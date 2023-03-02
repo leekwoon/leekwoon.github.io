@@ -20,17 +20,19 @@
         <li>{{ paper.venue }}</li>
         <li><i>{{ paper.comments }}</i></li>
         <li>
+        <!-- color -->
+        <!-- https://www.htmlcodes.ws/color/html-color-code-generator.cfm?colorName=DeepSkyBlue -->
         {%if paper.video_url%}
-            <a style="color:DodgerBlue" href="{{ paper.video_url }}">[Video]</a>
+            <a style="color:DodgerBlue" href="{{ paper.video_url }}"><b>[Video]</b></a>
         {% endif %}
         {%if paper.paper_url%}
-            <a style="color:DodgerBlue" href="{{ paper.paper_url }}">[Paper]</a>
+            <a style="color:DodgerBlue" href="{{ paper.paper_url }}"><b>[Paper]</b></a>
         {% endif %}
         {%if paper.page_url%}
-            <a style="color:DodgerBlue" href="{{ paper.page_url }}">[Project]</a>
+            <a style="color:DodgerBlue" href="{{ paper.page_url }}"><b>[Project]</b></a>
         {% endif %}
         {%if paper.github_url%}
-            <a style="color:DodgerBlue" href="{{ paper.github_url }}">[Code]</a>
+            <a style="color:DodgerBlue" href="{{ paper.github_url }}"><b>[Code]</b></a>
         {% endif %}
         </li>
     </ul>
