@@ -12,7 +12,9 @@ description: > # this means to ignore newlines until "url:"
   Hi! My name is Kyowoon Lee, welcome to my website! 
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Template from <a href="https://github.com/ZhengyiLuo/ZhengyiLuo.github.io" target="_blank">ZhengyiLuo.github.io</a>.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+# Template from <a href="https://github.com/ZhengyiLuo/ZhengyiLuo.github.io" target="_blank">ZhengyiLuo.github.io</a>.
 
 icon: 🎹
 
@@ -42,7 +44,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: leekwoon # your GitHub user name
-# twitter_username: zhengyiluo # your Twitter handle
+# twitter_username: leekwoon # your Twitter handle
 # linkedin_username: zhengyi-zen-luo-726156105 # your LinkedIn user name
 scholar_userid: UrtK8HUAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
