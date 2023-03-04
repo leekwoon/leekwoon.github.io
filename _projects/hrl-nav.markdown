@@ -14,6 +14,7 @@ type: research
 <h5 style="text-align: center;color:gray">
     <a style="color:DodgerBlue" href="">[Paper(will be appeared)]</a>
     <a style="color:DodgerBlue" href="https://github.com/leekwoon/hrl-nav">[Code]</a>
+    <a style="color:DodgerBlue" href="https://github.com/leekwoon/nav-gym">[Simulator]</a>
 </h5>
 
 
