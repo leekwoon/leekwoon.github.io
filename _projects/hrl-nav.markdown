@@ -29,10 +29,17 @@ For robotic vehicles to navigate robustly and safely in unseen environments, it 
 
 ## **Contribution**
 
-* Proposal of a hierarchical reinforcement learning ap-
-proach which learns diverse navigation skills and de-
-ploys them.
-* Extensive evaluation of our approach on various sce-
-narios including a real-world robot navigation which
-demonstrates effectiveness and explainability of our
-approach.
+* Proposal of a hierarchical reinforcement learning approach which learns diverse navigation skills and deploys them.
+* Extensive evaluation of our approach on various scenarios including a real-world robot navigation which demonstrates effectiveness and explainability of our approach.
+
+
+## **Reference**
+
+```
+@inproceedings{lee2023hrlnav,
+  title={Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning},
+  author={Lee, Kyowoon and Kim, Seongun and Choi, Jaesik},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023}
+}
+```

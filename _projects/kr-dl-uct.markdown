@@ -87,10 +87,12 @@ Our program KR-DRL-MES won in the international digital curling competition, GAT
 ## **Reference**
 
 ```
-@inproceedings{lee2023hrlnav,
-  title={Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning},
-  author={Lee, Kyowoon and Kim, Seongun and Choi, Jaesik},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2023}
+@inproceedings{lee2018deep,
+  title={Deep reinforcement learning in continuous action spaces: a case study in the game of simulated curling},
+  author={Lee, Kyowoon and Kim, Sol-A and Choi, Jaesik and Lee, Seong-Whan},
+  booktitle={International conference on machine learning},
+  pages={2937--2946},
+  year={2018},
+  organization={PMLR}
 }
 ```
