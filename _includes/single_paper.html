@@ -28,11 +28,11 @@
         {%if paper.paper_url%}
             <a style="color:DodgerBlue" href="{{ paper.paper_url }}"><b>[Paper]</b></a>
         {% endif %}
-        {%if paper.page_url%}
-            <a style="color:DodgerBlue" href="{{ paper.page_url }}"><b>[Project]</b></a>
-        {% endif %}
         {%if paper.github_url%}
             <a style="color:DodgerBlue" href="{{ paper.github_url }}"><b>[Code]</b></a>
+        {% endif %}
+        {%if paper.project_url%}
+            <a style="color:DodgerBlue" href="{{ paper.project_url }}"><b>[Project]</b></a>
         {% endif %}
         </li>
     </ul>

@@ -24,6 +24,7 @@ publications:
     # page_url: /projects/embodied_pose/
     paper_url: https://github.com/leekwoon/hrl-nav
     github_url: https://github.com/leekwoon/hrl-nav
+    project_url: https://leekwoon.github.io/projects/hrl-nav
     image: projects/hrl-nav/example.gif
   - title: "Confirmatory Bayesian Online Change Point Detection in the Covariance Structure of Gaussian Processes"
     authors:
@@ -34,6 +35,7 @@ publications:
     venue: IJCAI 2019
     # page_url: /projects/embodied_pose/
     paper_url: https://arxiv.org/pdf/1905.13168.pdf
+    project_url: https://leekwoon.github.io/projects/cbocpd
     image: projects/CBOCPD/run_length.png
   - title: "Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling"
     authors:
@@ -46,5 +48,6 @@ publications:
     paper_url: http://proceedings.mlr.press/v80/lee18b/lee18b.pdf
     # video_url: https://www.youtube.com/watch?v=8Ae0xzqAtm8
     github_url: https://github.com/leekwoon/KR-DL-UCT
+    project_url: https://leekwoon.github.io/projects/kr-dl-uct
     image: projects/KR-DL-UCT/curling.gif
  
