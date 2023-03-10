@@ -18,7 +18,8 @@ type: research
 </h5>
 
 
-<video width="800" playsinline="True" autoplay="True" muted="True" controls>
+<!-- <video width="800" playsinline="True" autoplay="True" muted="True" controls> -->
+<video width="800" playsinline="True" controls>
   <source src="/assets/img/projects/hrl-nav/ICRA23_2983_VI_fi.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
