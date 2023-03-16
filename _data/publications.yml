@@ -2,17 +2,17 @@
 # @Date:   2022-10-08 15:46:26
 # @Last Modified by:   Your name
 # @Last Modified time: 2023-02-22 13:27:45
-pre_prints:
-  - title: "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills"
-    authors:
-      - Seongun Kim*
-      - Kyowoon Lee*
-      - Jaesik Choi
-    venue: Preprint 2023
-    page_url: # /projects/embodied_pose/
-    # paper_url: https://github.com/leekwoon/hrl-nav
-    # github_url: https://github.com/leekwoon/hrl-nav
-    image: projects/vcrl/fig.png
+# pre_prints:
+#   - title: "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills"
+#     authors:
+#       - Seongun Kim*
+#       - Kyowoon Lee*
+#       - Jaesik Choi
+#     venue: Preprint 2023
+#     page_url: # /projects/embodied_pose/
+#     # paper_url: https://github.com/leekwoon/hrl-nav
+#     # github_url: https://github.com/leekwoon/hrl-nav
+#     image: projects/vcrl/fig.png
 
 publications:
   - title: "Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning"
