@@ -15,6 +15,7 @@ type: research
 
 <h5 style="text-align: center;color:gray">
     <a style="color:DodgerBlue" href="https://arxiv.org/pdf/1905.13168.pdf">[Paper]</a>
+    <a style="color:DodgerBlue" href="/assets/pdf/Poster_IJCAI19__Confirmatory_BOCPD.pdf">[Poster]</a>
 </h5>
 
 ## **Abstract**

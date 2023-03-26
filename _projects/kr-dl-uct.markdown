@@ -16,6 +16,7 @@ type: research
 <h5 style="text-align: center;color:gray">
     <a style="color:DodgerBlue" href="http://proceedings.mlr.press/v80/lee18b/lee18b.pdf">[Paper]</a>
     <a style="color:DodgerBlue" href="https://github.com/leekwoon/KR-DL-UCT">[Code]</a>
+    <a style="color:DodgerBlue" href="/assets/pdf/icml18-curling-poster.pdf">[Poster]</a>
 </h5>
 
 ## **Abstract**
