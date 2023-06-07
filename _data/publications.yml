@@ -32,7 +32,7 @@ publications:
       - Jaesik Choi
     venue: ICRA 2023
     # page_url: /projects/embodied_pose/
-    paper_url: https://github.com/leekwoon/hrl-nav
+    paper_url: https://arxiv.org/pdf/2305.19746.pdf
     github_url: https://github.com/leekwoon/hrl-nav
     project_url: https://leekwoon.github.io/projects/hrl-nav
     image: projects/hrl-nav/example.gif

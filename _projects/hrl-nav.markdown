@@ -12,9 +12,10 @@ type: research
 <h5 style="text-align: center;"> ICRA 2023 </h5>
 <h5 style="text-align: center;color:gray"> (*: equal contribution) </h5>
 <h5 style="text-align: center;color:gray">
-    <a style="color:DodgerBlue" href="">[Paper(will be appeared)]</a>
+    <a style="color:DodgerBlue" href="https://arxiv.org/pdf/2305.19746.pdf">[Paper]</a>
     <a style="color:DodgerBlue" href="https://github.com/leekwoon/hrl-nav">[Code]</a>
     <a style="color:DodgerBlue" href="https://github.com/leekwoon/nav-gym">[Simulator]</a>
+    <a style="color:DodgerBlue" href="/assets/pdf/icra23_poster.pdf">[Poster]</a>
 </h5>
 
 
@@ -37,10 +38,11 @@ For robotic vehicles to navigate robustly and safely in unseen environments, it 
 ## **Reference**
 
 ```
-@inproceedings{lee2023hrlnav,
+@article{lee2023adaptive,
   title={Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning},
   author={Lee, Kyowoon and Kim, Seongun and Choi, Jaesik},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  journal={arXiv preprint arXiv:2305.19746},
   year={2023}
 }
+
 ```
