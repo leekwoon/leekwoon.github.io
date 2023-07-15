@@ -22,8 +22,8 @@ publications:
       - Jaesik Choi
     venue: ICML 2023
     # page_url: # /projects/embodied_pose/
-    paper_url: http://sailab.kaist.ac.kr/paper-a-paper-is-accepted-at-icml-23/
-    # github_url: https://github.com/leekwoon/hrl-nav
+    paper_url: https://openreview.net/pdf?id=U4r9JNyNZ7
+    github_url: https://github.com/seongun-kim/vcrl
     image: projects/vcrl/fig.png
   - title: "Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning"
     authors:
