@@ -15,6 +15,16 @@
 #     image: projects/vcrl/fig.png
 
 publications:
+  - title: "Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans"
+    authors:
+      - Kyowoon Lee*
+      - Seongun Kim*
+      - Jaesik Choi
+    venue: NeurIPS 2023
+    paper_url: https://github.com/leekwoon/rgg
+    github_url: https://github.com/leekwoon/rgg
+    project_url: https://leekwoon.github.io/projects/rgg
+    image: projects/rgg/thumbnail.png
   - title: "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills"
     authors:
       - Seongun Kim*
@@ -32,7 +42,6 @@ publications:
       - Seongun Kim*
       - Jaesik Choi
     venue: ICRA 2023
-    # page_url: /projects/embodied_pose/
     paper_url: https://arxiv.org/pdf/2305.19746.pdf
     github_url: https://github.com/leekwoon/hrl-nav
     project_url: https://leekwoon.github.io/projects/hrl-nav

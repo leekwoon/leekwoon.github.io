@@ -8,4 +8,3 @@ nav: true
 ---
 {% include publications.html %}
 
-
