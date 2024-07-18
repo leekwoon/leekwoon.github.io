@@ -21,7 +21,7 @@ publications:
       - Seongun Kim*
       - Jaesik Choi
     venue: NeurIPS 2023
-    paper_url: https://github.com/leekwoon/rgg
+    paper_url: https://arxiv.org/pdf/2310.19427.pdf
     github_url: https://github.com/leekwoon/rgg
     project_url: https://leekwoon.github.io/projects/rgg
     image: projects/rgg/thumbnail.png
@@ -32,7 +32,7 @@ publications:
       - Jaesik Choi
     venue: ICML 2023
     # page_url: # /projects/embodied_pose/
-    paper_url: https://openreview.net/pdf?id=U4r9JNyNZ7
+    paper_url: https://arxiv.org/pdf/2310.19424.pdf
     github_url: https://github.com/seongun-kim/vcrl
     project_url: https://leekwoon.github.io/projects/vcrl
     image: projects/vcrl/thumbnail.png
