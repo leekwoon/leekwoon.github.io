@@ -3,7 +3,7 @@ layout: page
 title: "" 
 description: Participation in the 5th PoAH Amateur Music Competition
 img: /assets/img/pianos/5th_poah.png
-importance: 5
+importance: 3
 type: piano
 ---
 
