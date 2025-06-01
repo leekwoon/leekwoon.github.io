@@ -2,19 +2,47 @@
 # @Date:   2022-10-08 15:46:26
 # @Last Modified by:   Your name
 # @Last Modified time: 2023-02-22 13:27:45
+
 # pre_prints:
-#   - title: "Refining Diffusion Planner with Restoration Gap Guidance"
+#   - title: "State-Covering Trajectory Stitching for Diffusion Planners"
 #     authors:
-#       - Kyowoon Lee*
-#       - Seongun Kim*
+#       - Kyowoon Lee
 #       - Jaesik Choi
-#     venue: Preprint 2023
-#     page_url: # /projects/embodied_pose/
-#     # paper_url: https://github.com/leekwoon/hrl-nav
-#     # github_url: https://github.com/leekwoon/hrl-nav
-#     image: projects/vcrl/fig.png
+#     venue: Preprint
+#     # paper_url: https://github.com/leekwoon/scots
+#     # github_url: https://github.com/leekwoon/scots
+#     image: projects/scots/thumbnail.png
 
 publications:
+  - title: "State-Covering Trajectory Stitching for Diffusion Planners"
+    authors:
+      - Kyowoon Lee
+      - Jaesik Choi
+    venue: Preprint
+    paper_url: https://github.com/leekwoon/scots
+    github_url: https://github.com/leekwoon/scots
+    image: projects/scots/thumbnail.png
+  - title: "Counterfactual Activation Editing for Post-hoc Prosody and Mispronunciation Correction in TTS Models"
+    authors:
+      - Kyowoon Lee
+      - Artyom Stitsyuk
+      - Gunu Jho
+      - Inchul Hwang
+      - Jaesik Choi
+    venue: Interspeech 2025
+    paper_url: https://github.com/leekwoon/cae
+    # github_url: https://github.com/leekwoon/cae
+    # project_url: https://leekwoon.github.io/projects/lomap
+    image: projects/cae/thumbnail.png
+  - title: "Local Manifold Approximation and Projection for Manifold-Aware Diffusion Planning"
+    authors:
+      - Kyowoon Lee
+      - Jaesik Choi
+    venue: ICML 2025
+    paper_url: https://github.com/leekwoon/lomap
+    github_url: https://github.com/leekwoon/lomap
+    # project_url: https://leekwoon.github.io/projects/lomap
+    image: projects/lomap/thumbnail.png
   - title: "Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans"
     authors:
       - Kyowoon Lee*
