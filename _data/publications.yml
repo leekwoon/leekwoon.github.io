@@ -19,7 +19,7 @@ publications:
       - Kyowoon Lee
       - Jaesik Choi
     venue: Preprint
-    paper_url: https://github.com/leekwoon/scots
+    paper_url: http://arxiv.org/abs/2506.00895
     github_url: https://github.com/leekwoon/scots
     image: projects/scots/thumbnail.png
   - title: "Counterfactual Activation Editing for Post-hoc Prosody and Mispronunciation Correction in TTS Models"
@@ -30,7 +30,7 @@ publications:
       - Inchul Hwang
       - Jaesik Choi
     venue: Interspeech 2025
-    paper_url: https://github.com/leekwoon/cae
+    paper_url: https://arxiv.org/abs/2506.00832
     # github_url: https://github.com/leekwoon/cae
     # project_url: https://leekwoon.github.io/projects/lomap
     image: projects/cae/thumbnail.png
@@ -39,7 +39,7 @@ publications:
       - Kyowoon Lee
       - Jaesik Choi
     venue: ICML 2025
-    paper_url: https://github.com/leekwoon/lomap
+    paper_url: https://arxiv.org/abs/2506.00867
     github_url: https://github.com/leekwoon/lomap
     # project_url: https://leekwoon.github.io/projects/lomap
     image: projects/lomap/thumbnail.png
