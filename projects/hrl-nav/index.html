@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>
-    Kyowoon Lee | Page not found
+    Kyowoon Lee | hrl-nav
 </title>
 <meta name="description" content="Hi! My name is Kyowoon Lee, welcome to my website! 
 " />
@@ -29,22 +29,23 @@
 <!-- <link rel="shortcut icon" href="/assets/img/icon/favicon.ico" /> -->
 <link rel="stylesheet" href="/assets/css/main.css" />
 
-<link rel="canonical" href="/404.html" />
+<link rel="canonical" href="/projects/hrl-nav/" />
 
 <!-- Open Graph -->
  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Page not found | Kyowoon Lee</title>
+<title>hrl-nav | Kyowoon Lee</title>
 <meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="Page not found" />
+<meta property="og:title" content="hrl-nav" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
-<meta property="og:description" content="Looks like there has been a mistake. Nothing exists here." />
+<meta name="description" content="Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning" />
+<meta property="og:description" content="Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning" />
 <meta property="og:site_name" content="Kyowoon Lee" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-06-30T10:16:23+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Page not found" />
+<meta property="twitter:title" content="hrl-nav" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Looks like there has been a mistake. Nothing exists here.","headline":"Page not found","url":"/404.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-30T10:16:23+09:00","datePublished":"2025-06-30T10:16:23+09:00","description":"Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning","headline":"hrl-nav","mainEntityOfPage":{"@type":"WebPage","@id":"/projects/hrl-nav/"},"url":"/projects/hrl-nav/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -134,11 +135,48 @@
     <div class="container mt-5">
         <div class="post">
   <header class="post-header">
-    <!-- <h1 class="post-title">Page not found</h1> -->
-    <!-- <h2 class="post-description">Looks like there has been a mistake. Nothing exists here.</h2> -->
+    <!-- <h1 class="post-title">hrl-nav</h1> -->
+    <!-- <h2 class="post-description">Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning</h2> -->
   </header>
 
-  <div ><p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+  <div ><h3 style="text-align: center;font-size:30px">Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning</h3>
+<h4 style="text-align: center;color:DodgerBlue"> <b>Kyowoon Lee</b>*, Seongun Kim*, Jaesik Choi </h4>
+<h5 style="text-align: center;"> ICRA 2023 </h5>
+<h5 style="text-align: center;color:gray"> (*: equal contribution) </h5>
+<h5 style="text-align: center;color:gray">
+    <a style="color:DodgerBlue" href="https://arxiv.org/pdf/2305.19746.pdf">[Paper]</a>
+    <a style="color:DodgerBlue" href="https://github.com/leekwoon/hrl-nav">[Code]</a>
+    <a style="color:DodgerBlue" href="https://github.com/leekwoon/nav-gym">[Simulator]</a>
+    <a style="color:DodgerBlue" href="/assets/pdf/icra23_poster.pdf">[Poster]</a>
+</h5>
+
+<!-- <video width="800" playsinline="True" autoplay="True" muted="True" controls> -->
+<video width="800" playsinline="True" controls="">
+  <source src="/assets/img/projects/hrl-nav/ICRA23_2983_VI_fi.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+<h2 id="abstract"><strong>Abstract</strong></h2>
+
+<p>For robotic vehicles to navigate robustly and safely in unseen environments, it is crucial to decide the most suitable navigation policy. However, most existing deep reinforcement learning based navigation policies are trained with a hand-engineered curriculum and reward function which are difficult to be deployed in a wide range of real-world scenarios. In this paper, we propose a framework to learn a family of low-level navigation policies and a high-level policy for deploying them. The main idea is that, instead of learning a single navigation policy with a fixed reward function, we simultaneously learn a family of policies that exhibit different behaviors with a wide range of reward functions. We then train the high-level policy which adaptively deploys the most suitable navigation skill. We evaluate our approach in simulation and the real world and demonstrate that our method can learn diverse navigation skills and adaptively deploy them. We also illustrate that our proposed hierarchical learning framework presents explainability by providing semantics for the behavior of an autonomous agent.</p>
+
+<h2 id="contribution"><strong>Contribution</strong></h2>
+
+<ul>
+  <li>Proposal of a hierarchical reinforcement learning approach which learns diverse navigation skills and deploys them.</li>
+  <li>Extensive evaluation of our approach on various scenarios including a real-world robot navigation which demonstrates effectiveness and explainability of our approach.</li>
+</ul>
+
+<h2 id="reference"><strong>Reference</strong></h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{lee2023adaptive,
+  title={Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning},
+  author={Lee, Kyowoon and Kim, Seongun and Choi, Jaesik},
+  journal={arXiv preprint arXiv:2305.19746},
+  year={2023}
+}
+
+</code></pre></div></div>
 </div>
 </div>
 

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<title>
+    Kyowoon Lee | KR-DL-UCT
+</title>
+<meta name="description" content="Hi! My name is Kyowoon Lee, welcome to my website! 
+" />
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
+
+<!-- Styles -->
+
+
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎹</text></svg>">
+
+<!-- <link rel="shortcut icon" href="/assets/img/icon/favicon.ico" /> -->
+<link rel="stylesheet" href="/assets/css/main.css" />
+
+<link rel="canonical" href="/projects/kr-dl-uct/" />
+
+<!-- Open Graph -->
+ <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>KR-DL-UCT | Kyowoon Lee</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="KR-DL-UCT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling" />
+<meta property="og:description" content="Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling" />
+<meta property="og:site_name" content="Kyowoon Lee" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-06-30T10:16:23+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="KR-DL-UCT" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-30T10:16:23+09:00","datePublished":"2025-06-30T10:16:23+09:00","description":"Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling","headline":"KR-DL-UCT","mainEntityOfPage":{"@type":"WebPage","@id":"/projects/kr-dl-uct/"},"url":"/projects/kr-dl-uct/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      
+      
+      
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Kyowoon</span>   Lee
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              About
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+        <div class="post">
+  <header class="post-header">
+    <!-- <h1 class="post-title">KR-DL-UCT</h1> -->
+    <!-- <h2 class="post-description">Deep Reinforcement Learning in Continuous Action Spaces&#58; a Case Study in the Game of Simulated Curling</h2> -->
+  </header>
+
+  <div ><h3 style="text-align: center;font-size:30px"> Deep Reinforcement Learning in Continuous Action<br />Spaces&#58; a Case Study in the Game of Simulated Curling </h3>
+<h4 style="text-align: center;color:DodgerBlue"> <b>Kyowoon Lee</b>*, Sol-A Kim*, Jaesik Choi, Seong-Whan Lee </h4>
+<h5 style="text-align: center;"> ICML 2018 </h5>
+<h5 style="text-align: center;color:gray"> (*: equal contribution) </h5>
+
+<h5 style="text-align: center;color:gray">
+    <a style="color:DodgerBlue" href="http://proceedings.mlr.press/v80/lee18b/lee18b.pdf">[Paper]</a>
+    <a style="color:DodgerBlue" href="https://github.com/leekwoon/KR-DL-UCT">[Code]</a>
+    <a style="color:DodgerBlue" href="/assets/pdf/icml18-curling-poster.pdf">[Poster]</a>
+</h5>
+
+<h2 id="abstract"><strong>Abstract</strong></h2>
+
+<p>Many real-world applications of reinforcement learning require an agent to select optimal actions from continuous spaces. Recently, deep neural networks have successfully been applied to games with discrete actions spaces. However, deep neural networks for discrete actions are not suitable for devising strategies for games where a very small change in an action can dramatically affect the outcome. In this paper, we present a new self-play reinforcement learning framework which equips a continuous search algorithm which enables to search in continuous action spaces with a kernel regression method. Without any hand-crafted features, our network is trained by supervised learning followed by self-play reinforcement learning with a high-fidelity simulator for the Olympic sport of curling. The program trained under our framework outperforms existing programs equipped with several hand-crafted features and won an international digital curling competition.</p>
+
+<h2 id="contribution"><strong>Contribution</strong></h2>
+
+<ul>
+  <li>We present a new framework which incorporates a deep neural network for learning game strategy with a kernel-based Monte Carlo tree search from a continuous space.</li>
+  <li>Without the use of any hand-crafted feature, our policy-value network is successfully trained using supervised learning followed by reinforcement learning with a high-fidelity simulator for the Olympic sport of curling.</li>
+  <li>The program trained under our framework outperforms existing programs equipped with several hand-crafted features and won an international digital curling competition.</li>
+</ul>
+
+<h2 id="learning-in-the-discretized-action-space-with-kernel-method"><strong>Learning in the Discretized Action Space with Kernel Method</strong></h2>
+
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0 mx-md-0 ml-md-0">
+        <img class="img-fluid rounded z-depth-0" src="/assets/img/projects/KR-DL-UCT/kr-dl-uct-motivation.png" alt="" title="Kin-Poly image" />
+    </div>
+</div>
+
+<ul>
+  <li>Conducts local search with continuous action samples generated from a deep convolutional neural network (CNN).</li>
+  <li>Generalizes the information between similar actions through kernel methods.</li>
+</ul>
+
+<h2 id="kernel-regression-deep-learning-uct"><strong>Kernel Regression Deep Learning UCT</strong></h2>
+
+<p>Our policy-value network takes the following inputs; the stones’ location, the order to tee, the number of shots, and flags to indicate whether each grid cell inside of the house is occupied by any stone. After the first convolutional block, the nine residual blocks follow, which are shared during training procedure. We train the policy and the value functions in a unified network. The output of the policy head is the probability distribution of each action. The output of the value head is the probability distribution of the final scores \([-8, 8]\).</p>
+
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0 mx-md-0 ml-md-0">
+        <img class="img-fluid rounded z-depth-0" src="/assets/img/projects/KR-DL-UCT/mcts.png" alt="" title="Kin-Poly image" />
+    </div>
+</div>
+
+<p>In the proposed KR-DL-UCT algorithm, the expected value and the number of visits is estimated by kernel density estimation and kernel regression respectively.</p>
+
+\[\mathbb{E}(\bar{v}_a|a){=}\frac{\sum\limits_{b \in A_t}K(a,b)\bar{v}_bn_b}{\sum\limits_{b \in A_t}K(a,b)n_b}
+%\end{equation}
+%\begin{equation}
+\text{, }W(a){=}\sum\limits_{b \in A_t}K(a,b)n_b\]
+
+<p>In the <strong>selection</strong> step, we used Upper Confidence Bound (UCB) as selection function to handle trade-off between exploitation and exploration. This selection function encourages exploration in actions with high variance and moderate expected reward.</p>
+
+\[a_t \leftarrow arg\max_{a_t \in A_t} \mathbb{E}[\bar{v}_a|a]+C\sqrt{\frac{\log\sum_{b\in A_t}W(b)}{W(a)}}\]
+
+<p>In the <strong>expansion</strong> step, to explore actions in continuous action space outside of the initialized actions by policy network, we find a new continuous action sample which minimizes the kernel density estimate within whose kernel weight is at least some threshold. This procedure can be approximated by sampling actions around the selected action and choosing the one with the minimal kernel density.</p>
+
+\[a'_t \leftarrow arg\min_{K(a_t,a)&gt;\gamma}W(a)\]
+
+<h2 id="dataset"><strong>Dataset</strong></h2>
+
+<p>In this paper, we use <a href="http://minerva.cs.uec.ac.jp/cgi-bin/curling/wiki.cgi?page=GAT%5F2021">simulated curling software</a> which assumes a stationary curling sheet. Thus, ice conditions are assumed to remain unchanged, the sweeping is not considered, and asymmetric Gaussian noise is added to the every shot. The simulator is implemented using the Box2D physics library, which deals with the trajectory of the stones and their collisions</p>
+
+<ul>
+  <li><strong>Supervised Learning</strong>: 0.4 million of the play data from the champion program (AyumuGAT’16) of Game AI Tournaments (GAT) digital curling championship in 2016.</li>
+  <li><strong>Self-play Reinforcement Learning</strong>: 5 million of the play data from self-play matches of KR-DL-UCT, executing 400 simulations per move.</li>
+</ul>
+
+<h2 id="experiments"><strong>Experiments</strong></h2>
+
+<p><img src="/assets/img/projects/KR-DL-UCT/kr-dl-uct-gif1.gif" alt="breakout-tunneling.gif" />
+<img src="/assets/img/projects/KR-DL-UCT/kr-dl-uct-gif2.gif" alt="pong-killshot.gif" /></p>
+
+<p>We compared the performance of a program trained by our proposed algorithm KR-DL-UCT with a baseline program DL-UCT trained without kernel methods. We initialized both models with the supervised learning and then trained further from shots of self-play games with two different algorithms. With the supervised training only, the KR-DL-UCT wins about 53% against DL-UCT. Further, KR-DL-UCT expedites the training procedure by improving the overall performance compared to DL-UCT under the self-play RL framework. After gathering 5 million shots from self-play, KR-DL-UCT wins 66% which is significantly higher than the winning percentage of DL-UCT.</p>
+
+<ul>
+  <li><strong>KR-DL</strong>: KR-DL-UCT with supervised learning</li>
+  <li><strong>KR-DRL</strong>: KR-DL with self-play RL</li>
+  <li><strong>KR-DRL-MES</strong>: KR-DRL with winning percentage table (multi-end strategy)</li>
+</ul>
+
+<p>Our program KR-DRL-MES won in the international digital curling competition, GAT-2018.</p>
+
+<h2 id="reference"><strong>Reference</strong></h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{lee2018deep,
+  title={Deep reinforcement learning in continuous action spaces: a case study in the game of simulated curling},
+  author={Lee, Kyowoon and Kim, Sol-A and Choi, Jaesik and Lee, Seong-Whan},
+  booktitle={International conference on machine learning},
+  pages={2937--2946},
+  year={2018},
+  organization={PMLR}
+}
+</code></pre></div></div>
+</div>
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 Kyowoon Lee.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+</footer>
+
+
+
+</body>
+
+<!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
