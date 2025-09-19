@@ -18,7 +18,7 @@ publications:
     authors:
       - Kyowoon Lee
       - Jaesik Choi
-    venue: Preprint
+    venue: NeurIPS 2025
     paper_url: http://arxiv.org/abs/2506.00895
     github_url: https://github.com/leekwoon/scots
     image: projects/scots/thumbnail.png
