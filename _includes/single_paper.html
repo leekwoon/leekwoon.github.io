@@ -9,9 +9,10 @@
         {% for idx in (0..num_authors)%}
         {% assign author = paper.authors[idx] %}
         {% assign clean = author | remove: "*" | remove: "†" %}
+        {% assign marker = author | remove: clean | replace: "†", "<sup>†</sup>" %}
         {% assign display = author | replace: "†", "<sup>†</sup>" %}
         {% if clean == "Kyowoon Lee" %}
-            <u><b style="color:black">{{ display }}</b></u>,
+            <u><b style="color:black">{{ clean }}</b></u>{{ marker }},
         {% elsif site.data.author_links[clean] %}
             <a href="{{ site.data.author_links[clean] }}" target="_blank" style="color:DodgerBlue;font-weight:normal">{{ display }}</a>,
         {% else %}
@@ -21,9 +22,10 @@
 
         {% assign last = paper.authors[-1] %}
         {% assign last_clean = last | remove: "*" | remove: "†" %}
+        {% assign last_marker = last | remove: last_clean | replace: "†", "<sup>†</sup>" %}
         {% assign last_display = last | replace: "†", "<sup>†</sup>" %}
         {% if last_clean == "Kyowoon Lee" %}
-            <u><b style="color:black">{{ last_display }}</b></u>
+            <u><b style="color:black">{{ last_clean }}</b></u>{{ last_marker }}
         {% elsif site.data.author_links[last_clean] %}
             <a href="{{ site.data.author_links[last_clean] }}" target="_blank" style="color:DodgerBlue;font-weight:normal">{{ last_display }}</a>
         {% else %}
