@@ -7,21 +7,37 @@
         <li>
         {% assign num_authors = (paper.authors | size) | minus: 2 %}
         {% for idx in (0..num_authors)%}
-        {%assign author = paper.authors[idx] %}
-        {% if author == "Kyowoon Lee" or author == "Kyowoon Lee*" %}
-            <u><i><b>{{ author }}</b></i></u>, 
+        {% assign author = paper.authors[idx] %}
+        {% assign clean = author | remove: "*" | remove: "†" %}
+        {% assign display = author | replace: "†", "<sup>†</sup>" %}
+        {% if clean == "Kyowoon Lee" %}
+            <u><b style="color:black">{{ display }}</b></u>,
+        {% elsif site.data.author_links[clean] %}
+            <a href="{{ site.data.author_links[clean] }}" target="_blank" style="color:DodgerBlue;font-weight:normal">{{ display }}</a>,
         {% else %}
-            {{ author }},
+            <span style="color:DodgerBlue;font-weight:normal">{{ display }}</span>,
         {% endif %}
         {% endfor %}
 
-        {{ paper.authors[-1] }}
+        {% assign last = paper.authors[-1] %}
+        {% assign last_clean = last | remove: "*" | remove: "†" %}
+        {% assign last_display = last | replace: "†", "<sup>†</sup>" %}
+        {% if last_clean == "Kyowoon Lee" %}
+            <u><b style="color:black">{{ last_display }}</b></u>
+        {% elsif site.data.author_links[last_clean] %}
+            <a href="{{ site.data.author_links[last_clean] }}" target="_blank" style="color:DodgerBlue;font-weight:normal">{{ last_display }}</a>
+        {% else %}
+            <span style="color:DodgerBlue;font-weight:normal">{{ last_display }}</span>
+        {% endif %}
         </li>
         <li>{{ paper.venue }}</li>
         <li><i>{{ paper.comments }}</i></li>
         <li>
         <!-- color -->
         <!-- https://www.htmlcodes.ws/color/html-color-code-generator.cfm?colorName=DeepSkyBlue -->
+        {%if paper.status%}
+            <b style="color:black">{{ paper.status }}</b>
+        {% endif %}
         {%if paper.video_url%}
             <a style="color:DodgerBlue" href="{{ paper.video_url }}"><b>[Video]</b></a>
         {% endif %}

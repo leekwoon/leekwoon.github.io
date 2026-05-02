@@ -1,0 +1,181 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{paralist}
+\usepackage[left=0.75in,top=0.35in,right=0.75in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\usepackage{url}
+\usepackage{fontawesome} % icon
+
+
+\name{KYOWOON LEE} % Your name
+\address{\faicon{envelope} leekwoon@kaist.ac.kr $\;$ \faicon{mobile} (+82) 10-2857-7771 $\;$ \faicon{home} \href{https://leekwoon.github.io}{https://leekwoon.github.io}}
+% \address{http://sail.unist.ac.kr/kyowoon/}
+% \address{\faicon{github} Mobile: (+82) 10-2857-7771}
+% find icon at https://fontawesome.com/icons
+
+% \faicon{mobile} (+82) 10-2857-7771 $\;$ 
+
+% \href{https://leekwoon.github.io}{https://leekwoon.github.io}
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{MidnightBlue}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{1.5em}
+}
+\item[]
+}{
+\end{list}
+}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	Research Interests
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\bf Research Interests}
+{My long-term research vision centers on developing trustworthy and scalable decision-making systems. To this end, I aim to:
+(1) develop data-efficient reinforcement learning algorithms that can learn effectively even in data-scarce or costly-to-simulate environments, addressing the fundamental challenge of limited data availability in real-world applications; and
+(2) ensure that autonomous agents make reliable, safe, and human-aligned decisions that can be trusted and seamlessly integrated into complex real-world systems such as robotics and interactive environments.}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\bf Professional Experience}
+{\bf Korea Advanced Institute of Science and Technology (KAIST)}
+\\ Postdoctoral Researcher\hfill {\em \em Oct 2024 - present} 
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	Education
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\bf Education}
+% {\bf KAIST}, Postdoctoral Researcher \hfill {\em Oct 2024 - present}
+{\bf Ulsan National Institute of Science and Technology (UNIST)}
+% \\ Combined M.S. and Ph.D. Program in Computer Science and Engineering \hfill {\em Sep 2016 - present} 
+\\ Combined M.S. and Ph.D. Program in Computer Science and Engineering \hfill {\em Sep 2016 - Aug 2024} 
+% \\ Leave of absence \hfill {\em Sep 2022 - present} 
+\vspace{0.1in}
+\\ {\bf Ulsan National Institute of Science and Technology (UNIST)} 
+\\ B.S. in Computer Science and Engineering, \textit{summa cum laude} \hfill {\em Mar 2012 - Aug 2016} 
+\\ GPA (Overall): 4.01/4.3 
+
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+
+
+
+\begin{rSection}{\bf Publications}
+{\textbf{International Conferences}} (*: equal contribution, $^\dagger$: equal advising)
+\begin{enumerate}
+    \item Soyeon Kim, Seongwoo Lim, \underline{\textbf{Kyowoon Lee}}$^\dagger$ and Jaesik Choi$^\dagger$, \emph{Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution}, International Conference on Machine Learning \textbf{(ICML)}, 2026.
+    \item \underline{\textbf{Kyowoon Lee}} and Jaesik Choi, \emph{State-Covering Trajectory Stitching for Diffusion Planning}, Conference on Neural Information Processing Systems \textbf{(NeurIPS)}, 2025.
+    \item \underline{\textbf{Kyowoon Lee}} and Jaesik Choi, \emph{Local Manifold Approximation and Projection for Manifold-Aware Diffusion Planning}, International Conference on Machine Learning \textbf{(ICML)}, 2025.
+    \item \underline{\textbf{Kyowoon Lee}}, Artyom Stitsyuk, Gunu Jho, Inchul Hwang and Jaesik Choi, \emph{Counterfactual Activation Editing for Post-hoc Prosody and Mispronunciation Correction in TTS Models}, \textbf{Interspeech}, 2025.
+    \item \underline{\textbf{Kyowoon Lee}}*, Seongun Kim* and Jaesik Choi, \emph{Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans}, Conference on Neural Information Processing Systems \textbf{(NeurIPS)}, 2023.
+    \item Seongun Kim*, \underline{\textbf{Kyowoon Lee}}* and Jaesik Choi, \emph{Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills}, International Conference on Machine Learning \textbf{(ICML)}, 2023.
+    \item \underline{\textbf{Kyowoon Lee}}*, Seongun Kim* and Jaesik Choi, \emph{Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning}, International Conference on Robotics and Automation \textbf{(ICRA)}, 2023.
+    \item Jiyeon Han*, \underline{\textbf{Kyowoon Lee}}*, Anh Tong and Jaesik Choi, \emph{Confirmatory Bayesian Online Change Point Detection in the Covariance Structure of Gaussian Processes}, International Joint Conference on Artificial Intelligence \textbf{(IJCAI)}, 2019.
+    \item \underline{\textbf{Kyowoon Lee}}*, Sol-A Kim*, Jaesik Choi and Seong-Hwan Lee, \emph{Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling}, International Conference on Machine Learning \textbf{(ICML)}, 2018.
+\end{enumerate}
+% {[1] \underline{\textbf{Kyowoon Lee}}*, Sol-A Kim*, Jaesik Choi and Seong-Hwan Lee, Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling, in the International Conference on Machine Learning \textbf{(ICML)}, 2018.}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Working Papers
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\bf Working Papers}
+{\textbf{Under Review}} (*: equal contribution, $^\dagger$: equal advising)
+\begin{enumerate}
+    \item \underline{\textbf{Kyowoon Lee}}, Yunhao Luo, Anh Tong and Jaesik Choi, \emph{Refining Compositional Diffusion for Reliable Long-Horizon Planning}.
+    \item Soyeon Kim*, Seongwoo Lim*, \underline{\textbf{Kyowoon Lee}} and Jaesik Choi, \emph{Robust Path Attribution in Piecewise Linear Neural Networks via Dummy-Constrained Optimization}.
+    \item Soyeon Kim, \underline{\textbf{Kyowoon Lee}}$^\dagger$ and Jaesik Choi$^\dagger$, \emph{Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution}.
+    \item Soyeon Kim, Seongwoo Lim, \underline{\textbf{Kyowoon Lee}}$^\dagger$ and Jaesik Choi$^\dagger$, \emph{Spectral Integrated Gradients for Coarse-to-Fine Feature Attribution}.
+\end{enumerate}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Patents
+%----------------------------------------------------------------------------------------
+% template ref: https://sundong.kim/assets/pdf/Sundong_Kim_CV.pdf
+% https://jyunlee.github.io/resources/cv.pdf
+\begin{rSection}{\bf Patents}
+\begin{enumerate}
+    \item Jaesik Choi, Jiyeon Han and \underline{\textbf{Kyowoon Lee}}, \emph{Methods and Apparatus for Predicting Data}, Conference on Neural Information Processing Systems, KR Patent 10-2020-0110650, 2020.
+    \item Jaesik Choi, Sol-A Kim and \underline{\textbf{Kyowoon Lee}}, \emph{Apparatus for Presenting Pitching Strategy of Curling Game Stone and Operation Method of the Apparatus}, Conference on Neural Information Processing Systems, KR Patent 10-2017-0151643, 2017.
+\end{enumerate}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	Honors and Awards 
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\bf Hornors and Awards}
+	\begin{itemize}
+		\item InnoCORE Postdoctoral Fellowship, Ministry of Science and ICT (MSIT), 2025--2026.
+		\item \href{https://neurips.cc/Conferences/2025/ProgramCommittee#top-reviewer}{Top Reviewer, NeurIPS 2025.}
+		\item Naver Ph.D. Fellowship Award, Naver, 2018.
+		\item National Science and Technology Scholarship, Korean Student Aid Foundation, 2012--2016.
+		\item SAIL Research Excellence Award, Statistical Artificial Intelligence Lab, UNIST, 2018.
+		\item Summa Cum Laude, UNIST, 2016.
+		\item \textbf{Winner (the 1st place)}, Breast Cancer Classification on Frozen Pathology, HeLP Challenge at Asan Medical Center, 2019.
+		\item \textbf{Winner (the 1st place)}, UEC-cup Digital Curling Competition, Game AI Tournament, 2018.
+		\item \textbf{Winner (the 1st place)}, Digital Curling Competition, Game Playing Workshop, 2017.
+	\end{itemize}
+	% {Naver PhD Fellowship Award, Naver, 2018} \\
+	% {SAIL Research Excellence Award, Statistical Artificail Intelligence Lab, UNIST, 2018.} 
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Academic Services
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\bf Academic Services}
+    \textbf{Reviewer:} NeurIPS, ICML, ICLR, RSS, IROS, CVPR, ECCV, KDD.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	References
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\bf References}
+{\textbf{Prof. \href{http://sailab.kaist.ac.kr/members/jaesik/}{Jaesik Choi}:} Professor in the Graduate School of AI, KAIST}
+\end{rSection}
+
+
+% Assistant Professor in the Department of Artificial Intelligence at Korea University
+
+% http://sailab.kaist.ac.kr/members/jaesik/
+
+\end{document}
+

@@ -8,4 +8,8 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.pdf
 

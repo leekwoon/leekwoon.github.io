@@ -17,6 +17,8 @@ social: true
 
 I'm a postdoctoral researcher in <a style="color:DodgerBlue" href="http://sailab.kaist.ac.kr"><u>SAIL</u></a> at Korea Advanced Institute of Science and Technology (KAIST). I received my B.S. and Ph.D. degrees from Ulsan National Institute of Science and Technology (UNIST) under the supervision of Prof. <a style="color:DodgerBlue" href="http://sailab.kaist.ac.kr/members/jaesik/"><u>Jaesik Choi</u></a>. I'm interested in developing reliable and data-efficient reinforcement learning (RL) algorithms.
 
+I'm always open to research collaborations. Feel free to reach out!
+
 
 <div >
 
