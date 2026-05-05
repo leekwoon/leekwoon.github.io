@@ -3,7 +3,7 @@ layout: page
 title: CBOCPD
 description: Confirmatory Bayesian Online Change Point Detection in the Covariance Structure of Gaussian Processes
 img: /assets/img/projects/CBOCPD/run_length.png
-importance: 1
+importance: 4
 type: research
 ---
 

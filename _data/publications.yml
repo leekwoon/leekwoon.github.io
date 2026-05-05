@@ -21,9 +21,9 @@ publications:
       - Anh Tong
       - Jaesik Choi
     venue: Preprint
-    status: Coming Soon
-    # paper_url:
-    # github_url:
+    paper_url: https://github.com/leekwoon/rcd
+    github_url: https://github.com/leekwoon/rcd
+    project_url: https://refining-compositional-diffusion.github.io/
     image: projects/rcd/thumbnail.png
   - title: "Robust Path Attribution in Piecewise Linear Neural Networks via Dummy-Constrained Optimization"
     authors:
@@ -64,7 +64,7 @@ publications:
       - Kyowoon Lee†
       - Jaesik Choi†
     venue: ICML 2026
-    paper_url: https://github.com/leekwoon/ma-gig
+    paper_url: https://arxiv.org/abs/2605.02167
     github_url: https://github.com/leekwoon/ma-gig
     image: projects/ma-gig/thumbnail.png
   - title: "State-Covering Trajectory Stitching for Diffusion Planners"

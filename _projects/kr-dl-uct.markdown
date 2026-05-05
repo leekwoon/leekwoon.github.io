@@ -3,7 +3,7 @@ layout: page
 title: KR-DL-UCT
 description: Deep Reinforcement Learning in Continuous Action Spaces&#58; a Case Study in the Game of Simulated Curling
 img: /assets/img/projects/KR-DL-UCT/curling.gif
-importance: 1
+importance: 5
 type: research
 ---
 

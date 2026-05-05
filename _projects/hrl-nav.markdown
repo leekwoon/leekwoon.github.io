@@ -3,7 +3,7 @@ layout: page
 title: hrl-nav
 description: Adaptive and Explainable Deployment of Navigation Skills via Hierarchical Deep Reinforcement Learning
 img: /assets/img/projects/hrl-nav/example.gif
-importance: 2
+importance: 3
 type: research
 ---
 
