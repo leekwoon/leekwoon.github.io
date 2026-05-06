@@ -21,7 +21,7 @@ publications:
       - Anh Tong
       - Jaesik Choi
     venue: Preprint
-    paper_url: https://github.com/leekwoon/rcd
+    paper_url: https://arxiv.org/abs/2605.03075
     github_url: https://github.com/leekwoon/rcd
     project_url: https://refining-compositional-diffusion.github.io/
     image: projects/rcd/thumbnail.png
