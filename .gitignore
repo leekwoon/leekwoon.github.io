@@ -13,3 +13,6 @@ cv/*.log
 cv/*.out
 cv/*.pdf
 
+
+cv/cv.fdb_latexmk
+cv/cv.fls
