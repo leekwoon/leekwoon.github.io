@@ -53,7 +53,7 @@ publications:
       - Kyowoon Lee†
       - Jaesik Choi†
     venue: KDD 2026
-    paper_url: https://arxiv.org/abs/2605.02167
+    paper_url: https://arxiv.org/abs/2605.19607
     github_url: https://github.com/leekwoon/sig
     image: projects/sig/thumbnail.png
   - title: "Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution"
