@@ -42,8 +42,7 @@ publications:
       - Kyowoon Lee†
       - Jaesik Choi†
     venue: ECCV 2026
-    status: Coming Soon
-    # paper_url:
+    paper_url: https://arxiv.org/abs/2606.22314
     # github_url:
     image: projects/dig/thumbnail.jpg
   - title: "Spectral Integrated Gradients for Coarse-to-Fine Feature Attribution"
