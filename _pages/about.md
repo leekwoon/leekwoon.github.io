@@ -17,8 +17,6 @@ social: true
 
 I'm an Assistant Professor in the Department of Future Mobility at <a style="color:DodgerBlue" href="https://www.ajou.ac.kr/en/"><u>Ajou University</u></a>, where I lead DEAR Lab (visit our lab website <a style="color:DodgerBlue" href="https://dearlab.net"><u>here</u></a>). Before joining Ajou, I was a postdoctoral researcher in <a style="color:DodgerBlue" href="http://sailab.kaist.ac.kr"><u>SAIL</u></a> at Korea Advanced Institute of Science and Technology (KAIST). I received my B.S. and Ph.D. degrees from Ulsan National Institute of Science and Technology (UNIST) under the supervision of Prof. <a style="color:DodgerBlue" href="http://sailab.kaist.ac.kr/members/jaesik/"><u>Jaesik Choi</u></a>. I'm interested in developing reliable and data-efficient reinforcement learning (RL) algorithms.
 
-Our lab is recruiting graduate students. If you are interested in joining us, please see the <a style="color:DodgerBlue" href="https://dearlab.net/contact"><u>Contact</u></a> page.
-
 I'm always open to research collaborations. Feel free to reach out!
 
 
