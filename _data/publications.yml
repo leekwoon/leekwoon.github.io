@@ -14,17 +14,6 @@
 #     image: projects/scots/thumbnail.png
 
 publications:
-  - title: "Refining Compositional Diffusion for Reliable Long-Horizon Planning"
-    authors:
-      - Kyowoon Lee
-      - Yunhao Luo
-      - Anh Tong
-      - Jaesik Choi
-    venue: Preprint
-    paper_url: https://arxiv.org/abs/2605.03075
-    github_url: https://github.com/leekwoon/rcd
-    project_url: https://refining-compositional-diffusion.github.io/
-    image: projects/rcd/thumbnail.png
   - title: "Robust Path Attribution in Piecewise Linear Neural Networks via Dummy-Constrained Optimization"
     authors:
       - Soyeon Kim*
@@ -36,6 +25,27 @@ publications:
     # paper_url:
     # github_url:
     image: projects/dcapm/thumbnail.png
+  - title: "Refining Compositional Diffusion for Reliable Long-Horizon Planning"
+    authors:
+      - Kyowoon Lee
+      - Yunhao Luo
+      - Anh Tong
+      - Jaesik Choi
+    venue: NeurIPS 2026
+    paper_url: https://arxiv.org/abs/2605.03075
+    github_url: https://github.com/leekwoon/rcd
+    project_url: https://refining-compositional-diffusion.github.io/
+    image: projects/rcd/thumbnail.png
+  - title: "PRISM: Principal Subspace Alignment for Parameter-Efficient Fine-Tuning"
+    authors:
+      - Anh Tong
+      - Kyowoon Lee
+      - Jaesik Choi
+    venue: NeurIPS 2026
+    status: Coming Soon
+    # paper_url:
+    # github_url:
+    image: projects/prism/thumbnail.png
   - title: "Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution"
     authors:
       - Soyeon Kim
